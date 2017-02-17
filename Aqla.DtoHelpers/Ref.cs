@@ -22,11 +22,5 @@ namespace Aqla.DtoHelpers
         {
             S = s;
         }
-
-        [Obsolete("No implicit conversation - setting a value should not replace reference; use S field", true)]
-        public static implicit operator Ref<T>(T v)
-        {
-            return new Ref<T>(v);
-        }
     }
 }

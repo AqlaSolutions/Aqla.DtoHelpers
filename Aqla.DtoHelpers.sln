@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtoHelpers", "DtoHelpers.csproj", "{1586C89D-D712-4499-AAF3-BCC4D3E9D1BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aqla.DtoHelpers", "Aqla.DtoHelpers\Aqla.DtoHelpers.csproj", "{1586C89D-D712-4499-AAF3-BCC4D3E9D1BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

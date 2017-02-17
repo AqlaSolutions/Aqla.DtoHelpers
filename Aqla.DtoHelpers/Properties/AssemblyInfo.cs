@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DtoHelpers")]
+[assembly: AssemblyTitle("Aqla.DtoHelpers")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DtoHelpers")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyProduct("Aqla.DtoHelpers")]
+[assembly: AssemblyCopyright("Copyright © 2017 Vladyslav Taranov")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

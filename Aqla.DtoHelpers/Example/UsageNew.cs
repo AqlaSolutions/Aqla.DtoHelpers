@@ -6,7 +6,7 @@ namespace DtoHelpers.Example
         {
             // easy writing
             container.NewWritable.S.Nickname = "test";
-            container.NewWritable.S.Character.S.Level = 1;
+            container.NewWritable.S.CharacterS.Level = 1;
             //example.NewReadOnly.S.Nickname = "test"; // not allowed, well
             //example.NewReadOnly.S = new DtoExamplePlayerNew();  // not allowed, well
 

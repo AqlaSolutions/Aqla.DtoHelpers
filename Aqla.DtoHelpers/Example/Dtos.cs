@@ -5,8 +5,9 @@ namespace DtoHelpers.Example
     struct DtoExamplePlayerNew
     {
         public string Nickname { get; set; }
-        public Ref<DtoExampleCharacterNew> Character { get; } // = new Ref<DtoExampleCharacterNew>(); can't initialize here!
-        // so have to handle null or use extension method!
+        public DtoExampleCharacterNew CharacterS; 
+        // nested are not supported to be Ref otherwise can't clone
+        // make nested as fields to make struct obvious
     }
 
     struct DtoExampleCharacterNew

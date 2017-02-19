@@ -22,5 +22,10 @@ namespace Aqla.DtoHelpers
         {
             S = s;
         }
+
+        public override string ToString()
+        {
+            return S.ToString();
+        }
     }
 }

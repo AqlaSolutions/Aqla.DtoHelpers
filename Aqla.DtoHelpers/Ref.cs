@@ -23,6 +23,16 @@ namespace Aqla.DtoHelpers
             S = s;
         }
 
+        public override int GetHashCode()
+        {
+            return S.GetHashCode();
+        }
+
+        public override bool Equals(object obj)
+        {
+            return S.Equals(obj);
+        }
+        
         public override string ToString()
         {
             return S.ToString();
